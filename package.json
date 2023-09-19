@@ -1,0 +1,26 @@
+{
+  "name": "dml",
+  "version": "1.0.0",
+  "description": "The repository is the research and implementation of DML in blockchain where users can train datasets in distributed environments and providers get tokens as a result.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./app",
+    "ico": "nodemon ./ico"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.3.1",
+    "elliptic": "^6.5.4",
+    "express": "^4.18.2",
+    "uuid": "^9.0.1",
+    "ws": "^8.14.1"
+  }
+}
